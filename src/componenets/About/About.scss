@@ -1,0 +1,52 @@
+*, :after, :before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.text-24{
+    font-size: 150px;
+}
+.fw-600{
+font-weight: 600!important;
+}
+.lh-base{
+    line-height: 1.5!important;
+}
+.align-self-center{
+    align-self: center;
+}
+.text-9{
+    font-size: 50px;
+}
+.text-primary{
+    color: blueviolet!important;
+}
+.brands-grid.separator-border>.row>:before {
+    border-left: 1px dotted #e0dede;
+    height: 100%;
+    left: -1px;
+    top: 0;
+}
+.text-12{
+    font-size: 40px!important;
+}
+.list-style-2>li {
+    border-bottom: 1px solid #eaeaea;
+    list-style-type: none;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+.btn-primary{
+    background-color: blueviolet;
+    border-radius: 4px solid rgb(142, 39, 187);
+    color: white;
+}
+
+@media only screen and (max-width: 600px){
+    .text-9{
+        font-size: 30px;
+    }
+    .text-24{
+        font-size: 90px;
+    }
+}
